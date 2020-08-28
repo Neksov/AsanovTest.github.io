@@ -19,7 +19,7 @@
       <div class="container">
         <div class="main">
           <div class="menu main__menu">
-            <a href="index.html" class="main__logo"><img src="img/logo.svg" alt="logo" />
+            <a href="index.html" class="menu__logo"><img src="img/logo.svg" alt="logo" />
               Asanov</a>
             <div class="menu__group">
               <div class="btn-group dropright">
@@ -300,11 +300,46 @@
             </div>
           </div>
           <!-- /.main__menu -->
-          <div class="main__info">
-            <p>sdfghjgfdsadf</p>
+          <div class="info main__info">
+            <div class="container">
+              <nav class="navbar navbar-expand-lg ">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Санкт-Петербург
+                        <img src="img/arrowNuv.svg" alt="arrowNuv" class="arrowNuv">
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-second" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item nav-link" href="#">Москва</a>
+                        <a class="dropdown-item nav-link" href="#">Владивосток</a>
+                        <a class="dropdown-item nav-link" href="#">Калининград</a>
+                      </div>
+                    </li>
+                    <li class="nav-item nav-item__maps">
+                      <a class="nav-link nav-link__navShop" href="#">
+                        Магазины</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <a href="tel:+78005554433" class="phone">+7 (800) 555-44-33</a>
+                    <button class="nav__btn" type="submit">Обратный звонок</button>
+                  </form>
+                </div>
+              </nav>
+              <!-- /.navbar -->
+              <nav class="navbar__search navbar-light">
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Поиск: Диван для кухни"
+                    aria-label="Search">
+                  <button class="btn__search my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </nav>
+              <!-- /.navbar__search -->
+            </div>
           </div>
           <!-- /.main__info -->
-
         </div>
       </div>
     </section>
