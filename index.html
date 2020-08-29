@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="utf-8" />
@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/swiper.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/animate.min.css" media="all" />
   <title>Asanov</title>
@@ -235,21 +236,6 @@
                   <img src="img/rotang.svg" alt="sofa" class="arrowPicture">
                   Мебель из ротанга
                 </button>
-                <div class="dropdown-menu">
-                  <p class="dropdown-menu-text">Мебель из ротанга</p>
-                  <nav class="nav flex-column">
-                    <a class="nav-link" href="#">Все диваны</a>
-                    <a class="nav-link" href="#">Диваны-кровати</a>
-                    <a class="nav-link" href="#">Угловые кожаные диваны</a>
-                    <a class="nav-link" href="#">Угловые тканевые диваны</a>
-                    <a class="nav-link" href="#">Прямые кожаные диваны</a>
-                    <a class="nav-link" href="#">Прямые тканевые диваны</a>
-                    <a class="nav-link" href="#">Кресла для гостиной</a>
-                    <a class="nav-link" href="#">Кресла-груши</a>
-                    <a class="nav-link" href="#">Офисные кресла</a>
-                    <a class="nav-link" href="#">Пуфы и банкетыки</a>
-                  </nav>
-                </div>
               </div>
               <div class="btn-group dropright">
                 <button type="button" class="btn btn-menu" data-toggle="dropdown" aria-haspopup="true"
@@ -257,21 +243,6 @@
                   <img src="img/premium.svg" alt="sofa" class="arrowPicture">
                   Мебель премиум-класса
                 </button>
-                <div class="dropdown-menu">
-                  <p class="dropdown-menu-text">Мебель премиум-класса</p>
-                  <nav class="nav flex-column">
-                    <a class="nav-link" href="#">Все диваны</a>
-                    <a class="nav-link" href="#">Диваны-кровати</a>
-                    <a class="nav-link" href="#">Угловые кожаные диваны</a>
-                    <a class="nav-link" href="#">Угловые тканевые диваны</a>
-                    <a class="nav-link" href="#">Прямые кожаные диваны</a>
-                    <a class="nav-link" href="#">Прямые тканевые диваны</a>
-                    <a class="nav-link" href="#">Кресла для гостиной</a>
-                    <a class="nav-link" href="#">Кресла-груши</a>
-                    <a class="nav-link" href="#">Офисные кресла</a>
-                    <a class="nav-link" href="#">Пуфы и банкетыки</a>
-                  </nav>
-                </div>
               </div>
               <div class="btn-group btn-group-last dropright">
                 <button type="button" class="btn btn-menu btn-menu-last" data-toggle="dropdown" aria-haspopup="true"
@@ -329,14 +300,117 @@
                 </div>
               </nav>
               <!-- /.navbar -->
-              <nav class="navbar__search navbar-light">
+              <nav class="search navbar__search">
                 <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Поиск: Диван для кухни"
-                    aria-label="Search">
-                  <button class="btn__search my-2 my-sm-0" type="submit">Search</button>
+                  <div class="search__form">
+                    <input class="search__input mr-sm-2" type="search" placeholder="Поиск: Диван для кухни"
+                      aria-label="Search">
+                    <button class="sub"><img src="img/search.svg" alt="search">
+                    </button>
+                  </div>
                 </form>
+                <div class="buttons">
+                  <button class="button button__enter">
+                    <img src="img/enter.svg" alt="enter">
+                    <span class="button-text">Войти</span>
+                  </button>
+                  <button class="button button__cart">
+                    <img src="img/cart.svg" alt="cart">
+                    <span class="button-text">25 000 ₽</span>
+                  </button>
+                </div>
               </nav>
               <!-- /.navbar__search -->
+              <div class="product info__product">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                  <div class="product__title">
+                    <img src="img/promo.svg" alt="promo">
+                    Лучшие предложения месяца
+                  </div>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="cards">
+                        <div class="card">
+                          <img src="img/image.svg" alt="furniture" class="furniture">
+                          <div class="card__colors">
+                            <img src="img/color.svg" alt="color" class="color">
+                            <img src="img/color2.svg" alt="color" class="color">
+                            <img src="img/color3.svg" alt="color" class="color">
+                          </div>
+                          <div class="card__title">Диван-трансформер &laquo;Камертон-2&raquo;</div>
+                        </div>
+                        <div class="card">
+                          <img src="img/image.svg" alt="furniture" class="furniture">
+                          <div class="card__colors">
+                            <img src="img/color.svg" alt="color" class="color">
+                            <img src="img/color2.svg" alt="color" class="color">
+                            <img src="img/color3.svg" alt="color" class="color">
+                          </div>
+                          <div class="card__title">Диван-трансформер &laquo;Камертон-2&raquo;</div>
+                        </div>
+                        <div class="card">
+                          <img src="img/image.svg" alt="furniture" class="furniture">
+                          <div class="card__colors">
+                            <img src="img/color.svg" alt="color" class="color">
+                            <img src="img/color2.svg" alt="color" class="color">
+                            <img src="img/color3.svg" alt="color" class="color">
+                          </div>
+                          <div class="card__title">Диван-трансформер &laquo;Камертон-2&raquo;</div>
+                        </div>
+                        <div class="card">
+                          <img src="img/image.svg" alt="furniture" class="furniture">
+                          <div class="card__colors">
+                            <img src="img/color.svg" alt="color" class="color">
+                            <img src="img/color2.svg" alt="color" class="color">
+                            <img src="img/color3.svg" alt="color" class="color">
+                          </div>
+                          <div class="card__title">Диван-трансформер &laquo;Камертон-2&raquo;</div>
+                        </div>
+                        <div class="card">
+                          <img src="img/image.svg" alt="furniture" class="furniture">
+                          <div class="card__colors">
+                            <img src="img/color.svg" alt="color" class="color">
+                            <img src="img/color2.svg" alt="color" class="color">
+                            <img src="img/color3.svg" alt="color" class="color">
+                          </div>
+                          <div class="card__title">Диван-трансформер &laquo;Камертон-2&raquo;</div>
+                        </div>
+                        <div class="card">
+                          <img src="img/image.svg" alt="furniture" class="furniture">
+                          <div class="card__colors">
+                            <img src="img/color.svg" alt="color" class="color">
+                            <img src="img/color2.svg" alt="color" class="color">
+                            <img src="img/color3.svg" alt="color" class="color">
+                          </div>
+                          <div class="card__title">Диван-трансформер &laquo;Камертон-2&raquo;</div>
+                        </div>
+                        <div class="card">
+                          <img src="img/image.svg" alt="furniture" class="furniture">
+                          <div class="card__colors">
+                            <img src="img/color.svg" alt="color" class="color">
+                            <img src="img/color2.svg" alt="color" class="color">
+                            <img src="img/color3.svg" alt="color" class="color">
+                          </div>
+                          <div class="card__title">Диван-трансформер &laquo;Камертон-2&raquo;</div>
+                        </div>
+                        <div class="card">
+                          <img src="img/image.svg" alt="furniture" class="furniture">
+                          <div class="card__colors">
+                            <img src="img/color.svg" alt="color" class="color">
+                            <img src="img/color2.svg" alt="color" class="color">
+                            <img src="img/color3.svg" alt="color" class="color">
+                          </div>
+                          <div class="card__title">Диван-трансформер &laquo;Камертон-2&raquo;</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+              <!-- /.product -->
             </div>
           </div>
           <!-- /.main__info -->
@@ -344,6 +418,7 @@
       </div>
     </section>
   </main>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
@@ -354,11 +429,9 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/swiper.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/jquery.mask.min.js"></script>
   <script src="js/wow.min.js"></script>
-  <script src="js/buttonUp.min.js"></script>
 </body>
 
 </html>
