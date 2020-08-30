@@ -11,8 +11,7 @@ $(document).ready(function () {
   $(".search__input").click(function (event) {
     $(".search__input").toggleClass("active");
   });
-
-  var swiper = new Swiper('.swiper-container', {
+  var mySwiper = new Swiper('.swiper-container', {
     slidesPerView: 4,
     direction: getDirection(),
     navigation: {
@@ -21,7 +20,7 @@ $(document).ready(function () {
     },
     on: {
       resize: function () {
-        swiper.changeDirection(getDirection());
+        mySwiper.changeDirection(getDirection());
       }
     }
   });
