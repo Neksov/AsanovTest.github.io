@@ -1,3 +1,43 @@
-@media  screen and (min-width : 1100px) and (max-width : 1200px)
+@media ( min-width: 1200px  )
+  .container
+    max-width: 1280px
+@media  screen and (min-width : 1024px) and (max-width : 1200px)
   .info
-    width: 840px
+    width: 780px
+  .search
+    &__input
+      width: 480px
+  .info
+    &__product
+      overflow: hidden
+  .swiper-slide
+    margin-right: 20px
+@media  screen and (min-width : 992px) and (max-width : 1023px)
+  .info
+    width: 780px
+  .arrowMenu
+    right: -12px
+  .btn-group-last::after 
+    width: 185px
+  .search
+    &__input
+      width: 470px
+  .info
+    &__product
+      overflow: hidden
+
+@media  screen and (min-width : 768px) and (max-width : 991px)
+  .main
+    width: 100%
+    &__info
+      width: 650px
+  .arrowMenu
+    right: -12px
+  .btn-group-last::after 
+    width: 185px
+  .search
+    &__input
+      width: 210px
+  .info
+    &__product
+      overflow: hidden

@@ -11,23 +11,37 @@ $(document).ready(function () {
   $(".search__input").click(function (event) {
     $(".search__input").toggleClass("active");
   });
-  var mySwiper = new Swiper('.swiper-container', {
+  var mySwiper = new Swiper(".swiper-container", {
     slidesPerView: 4,
     direction: getDirection(),
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     on: {
       resize: function () {
         mySwiper.changeDirection(getDirection());
-      }
-    }
+      },
+    },
+    breakpoints: {
+      1025: {
+        slidesPerView: 4,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+    },
   });
 
   function getDirection() {
     var windowWidth = window.innerWidth;
-    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+    var direction = window.innerWidth <= 760 ? "vertical" : "horizontal";
 
     return direction;
   }
