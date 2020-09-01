@@ -1,4 +1,5 @@
 .product
+  position: relative
   &__title
     font-style: normal
     font-weight: bold
@@ -12,6 +13,15 @@
     z-index: -10
     img
       margin-right: 9px
+  &::before
+    position: absolute
+    left: 0
+    bottom: 23px
+    content: ''
+    width: 100%
+    height: 2px
+    background: #F2F1F3
+    z-index: 100
 .swiper-container 
   width: 920px
   height: 500px
@@ -50,7 +60,7 @@
     line-height: 24px
     color: #1A1A1A
     text-align: left
-    margin-top: 10px
+    margin-top: 14px
     margin-left: 7px
   &__colors
     margin-top: -31px
@@ -196,6 +206,7 @@
   right: 0px
   width: 32px
   z-index: 10
+  outline: none
   &::after
     content: ''
   &:hover
@@ -208,6 +219,7 @@
   left: auto
   right: 48px
   z-index: 10
+  outline: none
   &::after
     content: ''
   &:hover
@@ -220,6 +232,7 @@
   top: 33px
   right: 0px
   width: 32px
+  outline: none
 .swiper-button-prev.swiper-button-disabled
   opacity: 1
   transform: rotate(360deg)
@@ -227,4 +240,5 @@
   top: 45px
   width: 32px
   left: auto
+  outline: none
   right: 48px

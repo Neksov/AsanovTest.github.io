@@ -1,6 +1,9 @@
 @media ( min-width: 1200px  )
   .container
     max-width: 1280px
+  .info
+    &__product
+      overflow: hidden
 @media  screen and (min-width : 1024px) and (max-width : 1200px)
   .info
     width: 780px
@@ -10,8 +13,20 @@
   .info
     &__product
       overflow: hidden
+  .btn-group-last::after 
+    width: 210px
+  .swiper-container
+    margin-left: 30px
   .swiper-slide
-    margin-right: 20px
+    margin-right: 10px
+  .swiper-button-next
+    right: 200px
+  .swiper-button-next.swiper-button-disabled 
+    right: 200px
+  .swiper-button-prev
+    right: 240px
+  .swiper-button-prev.swiper-button-disabled
+    right: 240px
 @media  screen and (min-width : 992px) and (max-width : 1023px)
   .info
     width: 780px
@@ -25,7 +40,20 @@
   .info
     &__product
       overflow: hidden
-
+  .btn-group-last::after 
+    width: 180px
+  .swiper-container
+    margin-left: 30px
+  .swiper-slide
+    margin-right: 10px
+  .swiper-button-next
+    right: 200px
+  .swiper-button-next.swiper-button-disabled 
+    right: 200px
+  .swiper-button-prev
+    right: 240px
+  .swiper-button-prev.swiper-button-disabled
+    right: 240px
 @media  screen and (min-width : 768px) and (max-width : 991px)
   .main
     width: 100%
@@ -41,3 +69,5 @@
   .info
     &__product
       overflow: hidden
+  .swiper-slide
+    margin-right: 20px
