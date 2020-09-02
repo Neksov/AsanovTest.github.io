@@ -37,17 +37,17 @@ var mySwiper = new Swiper(".swiper-container", {
     },
   },
   breakpoints: {
-    1025: {
+    1200: {
       slidesPerView: 4,
     },
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
     992: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
     768: {
-      slidesPerView: 4,
+      slidesPerView: 2,
     },
   },
 });
@@ -58,3 +58,53 @@ function getDirection() {
 
   return direction;
 }
+//Рейтинг 
+// var rating = document.querySelector(".stars");
+// var ratingItem = document.querySelectorAll(".star");
+
+// rating.onclick = function (e) {
+//   var target = e.target;
+//   if (target.classList.contains("star")) {
+//     removeClass(ratingItem, "current-active");
+//     target.classList.add("active", "current-active");
+//   }
+// };
+
+// rating.onmouseover = function (e) {
+//   var target = e.target;
+//   if (target.classList.contains("star")) {
+//     removeClass(ratingItem, "active");
+//     target.classList.add("active");
+//     mouseOverActiveClass(ratingItem);
+//   }
+// };
+// rating.onmouseout = function () {
+//   addClass(ratingItem, "active");
+//   mouseOutActiveClas(ratingItem);
+// };
+
+// function removeClass(arr) {
+//   for (var i = 0, iLen = arr.length; i < iLen; i++) {
+//     for (var j = 1; j < arguments.length; j++) {
+//       ratingItem[i].classList.remove(arguments[j]);
+//     }
+//   }
+// }
+
+// function addClass(arr) {
+//   for (var i = 0, iLen = arr.length; i < iLen; i++) {
+//     for (var j = 1; j < arguments.length; j++) {
+//       ratingItem[i].classList.add(arguments[j]);
+//     }
+//   }
+// }
+
+// function mouseOverActiveClass(arr) {
+//   for (var i = 0, iLen = arr.length; i < iLen; i++) {
+//     if (arr[i].classList.contains("active")) {
+//       break;
+//     } else {
+//       arr[i].classList.add("active");
+//     }
+//   }
+// }

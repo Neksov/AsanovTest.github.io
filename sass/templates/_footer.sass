@@ -15,8 +15,8 @@
         background: url(../img/shop2.svg) no-repeat
         color: #EE2A74
   &__group
-    padding: 33px 54px
-    margin-right: -25px
+    padding: 33px 40px
+    margin-right: -18px
     &-title
       font-style: normal
       font-weight: normal
@@ -25,7 +25,42 @@
       color: #1A1A1A
     &-list
       margin-top: 5px
-
+    &-second
+      margin-top: -54px
+    &-social
+      margin-top: 11px
+      img
+        padding-right: 3px
+    &-payment
+      width: 260px
+      margin-top: 11px
+      img
+        padding-right: 12px
+  &__policy
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 16px
+    cursor: pointer
+    letter-spacing: 0.1px
+    margin-left: 40px
+    margin-top: 6px
+    a
+      color: #1A1A1A
+  &__data
+    display: flex
+    justify-content: space-between
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 16px
+    margin-top: 16px
+    margin-left: 40px
+    margin-bottom: 20px
+    a
+      color: #1A1A1A
+    &-design
+      margin-right: 40px
 .item-list
   font-style: normal
   font-weight: normal
@@ -37,8 +72,8 @@
   a
     color: #A2A0A3
   &-star
-    width: 184px
-    padding-top: 8px
+    width: 180px
+    padding-top: 9px
     padding-bottom: 4px
     display: flex
     align-items: baseline
@@ -47,6 +82,12 @@
 .stars
   display: flex
   flex-direction: row
-  margin-left: 13px
+  margin-left: 12px
 .star
-  padding-right: 4px
+  padding-right: 17px
+  background: url(../img/star.svg) no-repeat
+  cursor: pointer
+  width: 16px
+  height: 16px
+.star.active
+  background: url(../img/starYellow.svg) no-repeat
