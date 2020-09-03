@@ -128,3 +128,71 @@
       margin-right: 5px
     &__policy, &__data
       margin-left: 33px
+@media  screen and (min-width : 480px) and (max-width : 767px)
+  .container
+    max-width: 1280px
+  .main
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: auto
+    &__menu
+      width: 100%  
+    &__info
+      width: 100%
+  .menu
+    &__group
+      height: 550px
+      box-shadow: none
+    &__logo
+      box-shadow: none
+
+  .nav-item
+    &__maps
+      display: none
+  .phone
+    display: none
+  .button
+    &__cart 
+      padding-left: 30px
+  .btn-group-last::after 
+    width: 90%
+  .arrowMenu
+    right: -10px
+  .dropdown-menu
+    width: 90%
+    &-text
+      font-size: 22px
+  .search
+    &__input
+      width: 230px
+  .product
+    &__title
+      margin-top: -2px
+  .swiper-container
+    margin-left: 30px
+  .swiper-button-next
+    right: 10px
+  .swiper-button-next.swiper-button-disabled 
+    right: 10px
+  .swiper-button-prev
+    right: 50px
+  .swiper-button-prev.swiper-button-disabled
+    right: 50px
+  .footer
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: flex-start
+    &__group 
+      padding: 33px 30px
+      &-desktop
+        display: none
+    &__data-design 
+      margin-right: 5px
+    &__policy, &__data
+      margin-left: 33px
+  .social
+    order: 2
+  .pay
+    order: 1
