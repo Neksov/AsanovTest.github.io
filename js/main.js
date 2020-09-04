@@ -26,15 +26,9 @@ $(document).ready(function () {
 
 var mySwiper = new Swiper(".swiper-container", {
   slidesPerView: 4,
-  direction: getDirection(),
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
-  on: {
-    resize: function () {
-      mySwiper.changeDirection(getDirection());
-    },
   },
   breakpoints: {
     1200: {
@@ -52,15 +46,29 @@ var mySwiper = new Swiper(".swiper-container", {
     768: {
       slidesPerView: 2,
     },
+    480: {
+      slidesPerView: 2,
+    },
+    320: {
+      slidesPerView: 2,
+    },
   },
 });
 
-function getDirection() {
-  var windowWidth = window.innerWidth;
-  var direction = window.innerWidth <= 760 ? "vertical" : "horizontal";
+//галочка вниз-вверх
+$(".desktop__btn").click(function (event) {
+  $(".desktop__arrow").toggleClass("active");
+});
+$(".desktop__btn").click(function (event) {
+  $(".desktop__arrow2").toggleClass("active");
+});
+$(".desktop__btn").click(function (event) {
+  $(".desktop__arrow3").toggleClass("active");
+});
+$(".desktop__btn").click(function (event) {
+  $(".desktop__arrow4").toggleClass("active");
+});
 
-  return direction;
-}
 //Рейтинг 
 // var rating = document.querySelector(".stars");
 // var ratingItem = document.querySelectorAll(".star");

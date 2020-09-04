@@ -329,7 +329,8 @@
                   <div class="swiper-container">
                     <div class="product__title">
                       <img src="img/promo.svg" alt="promo">
-                      Лучшие предложения месяца
+                      <span class="product__title-first">Лучшие предложения месяца</span>
+                      <span class="product__title-second">Мы рекомендуем</span>
                     </div>
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
@@ -630,8 +631,11 @@
                 <div class="footer__map">
                   <a class="footer__map-shop" href="#">
                     Магазины</a>
+                  <a href="tel:+78005554433" class="phone desktop__phone"><img src="img/phone.svg" alt="phone"
+                      class="desktop__phone">+7 (800)
+                    555-44-33</a>
                 </div>
-                <div class="row">
+                <div class="row footer__row">
                   <div class="col-lg-3 col-md-5 footer__group">
                     <div class="footer__group-title">
                       Как мы работаем?
@@ -644,7 +648,6 @@
                       <li class="item-list"><a href="#">Рассрочка</a></li>
                     </ul>
                   </div>
-
                   <div class="col-lg-3 col-md-5 footer__group">
                     <div class="footer__group-title">
                       Другая информация
@@ -723,6 +726,124 @@
                       <a href="#"><img src="img/visa.svg" alt="Visa"></a>
                       <a href="#"><img src="img/mir.svg" alt="Мир"></a>
                       <a href="#"><img src="img/yndexmoney.svg" alt="Яндекс Деньги"></a>
+                    </div>
+                  </div>
+
+                  <!-- decktop -->
+                  <div id="accordion" class="desktop footer__group-desktop col-sm-12">
+                    <div class="card2">
+                      <div class="card2-header collapsed" id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn desktop__btn" data-toggle="collapse" data-target="#collapseOne"
+                            aria-controls="collapseOne">
+                            Как мы работаем
+                            <img src="img/arrowMenu.svg" alt="arrow" class="desktop__arrow">
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseOne" class="collapse show " aria-labelledby="headingOne"
+                        data-parent="#accordion">
+                        <div class="card2-body">
+                          <ul class="footer__group-list desktop__list">
+                            <li class="item-list"><a href="#">О нас</a></li>
+                            <li class="item-list"><a href="#">Сборка и доставка</a></li>
+                            <li class="item-list"><a href="#">Оплата и возврат</a></li>
+                            <li class="item-list"><a href="#">Гарантия</a></li>
+                            <li class="item-list"><a href="#">Рассрочка</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card2">
+                      <div class="card2-header collapsed" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn desktop__btn" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-controls="collapseTwo">
+                            Другая информация
+                            <img src="img/arrowMenu.svg" alt="arrow" class="desktop__arrow2">
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card2-body">
+                          <ul class="footer__group-list desktop__list">
+                            <li class="item-list"><a href="#">Блог</a></li>
+                            <li class="item-list"><a href="#">Контакты</a></li>
+                            <li class="item-list"><a href="#">Социальные сети</a></li>
+                            <li class="item-list"><a href="#">Бренды мебели</a></li>
+                            <li class="item-list"><a href="#">Карта сайта</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card2">
+                      <div class="card2-header collapsed" id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn desktop__btn" data-toggle="collapse" data-target="#collapseThree"
+                            aria-controls="collapseThree">
+                            Сотрудничество
+                            <img src="img/arrowMenu.svg" alt="arrow" class="desktop__arrow3">
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card2-body">
+                          <ul class="footer__group-list desktop__list">
+                            <li class="item-list"><a href="#">Поставщикам</a></li>
+                            <li class="item-list"><a href="#">Оптовикам</a></li>
+                            <li class="item-list"><a href="#">Франчайзинг</a></li>
+                            <li class="item-list"><a href="#">Подписка</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card2">
+                      <div class="card2-header collapsed" id="headingFourth">
+                        <h5 class="mb-0">
+                          <button class="btn desktop__btn" data-toggle="collapse" data-target="#collapseFourth"
+                            aria-controls="collapseFourth">
+                            Отзывы о нас
+                            <img src="img/arrowMenu.svg" alt="arrow" class="desktop__arrow4">
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseFourth" class="collapse" aria-labelledby="headingFourth"
+                        data-parent="#accordion">
+                        <div class="card2-body">
+                          <ul class="footer__group-list">
+                            <li class="item-list item-list-star"><a href="#"><img src="img/yandex.svg" alt="yandex"></a>
+                              <div class="stars">
+                                <div class="star active" data-rate="1"></div>
+                                <div class="star active" data-rate="2"></div>
+                                <div class="star active" data-rate="3"></div>
+                                <div class="star active" data-rate="4"></div>
+                                <div class="star " data-rate="5"></div>
+                              </div>
+                            </li>
+                            <li class="item-list item-list-star"><a href="#"><img src="img/google.svg" alt="google"></a>
+                              <div class="stars">
+                                <div class="star active" data-rate="1"></div>
+                                <div class="star active" data-rate="2"></div>
+                                <div class="star active" data-rate="3"></div>
+                                <div class="star active" data-rate="4"></div>
+                                <div class="star " data-rate="5"></div>
+                              </div>
+                            </li>
+                            <li class="item-list item-list-star"><a href="#"><img src="img/2gis.svg" alt="2gis"></a>
+                              <div class="stars">
+                                <div class="star active" data-rate="1"></div>
+                                <div class="star active" data-rate="2"></div>
+                                <div class="star active" data-rate="3"></div>
+                                <div class="star active" data-rate="4"></div>
+                                <div class="star active" data-rate="5"></div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

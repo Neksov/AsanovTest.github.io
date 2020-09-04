@@ -36,6 +36,8 @@
       margin-top: 11px
       img
         padding-right: 12px
+    &-desktop
+      display: none
   &__policy
     font-style: normal
     font-weight: normal
@@ -56,7 +58,7 @@
     line-height: 16px
     margin-top: 16px
     margin-left: 40px
-    margin-bottom: 20px
+    margin-bottom: 16px
     a
       color: #1A1A1A
     &-design
@@ -91,4 +93,32 @@
   height: 16px
 .star.active
   background: url(../img/starYellow.svg) no-repeat
-
+.desktop
+  &__arrow
+    transform: rotate(270deg)
+  &__arrow2
+    transform: rotate(270deg)
+  &__arrow3
+    transform: rotate(270deg)
+  &__arrow4
+    transform: rotate(270deg)
+  &__btn
+    display: flex
+    align-items: center 
+    box-shadow: none
+    justify-content: space-between
+    width: 100%
+    border-bottom: 2px solid #F2F1F3
+    padding: 0.5rem 0
+  &__list
+    margin-left: 13px
+  &__phone
+    display: none
+.desktop__arrow.active
+  transform: rotate(90deg)
+.desktop__arrow2.active
+  transform: rotate(90deg)
+.desktop__arrow3.active
+  transform: rotate(90deg)
+.desktop__arrow4.active
+  transform: rotate(90deg)
