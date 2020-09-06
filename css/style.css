@@ -538,9 +538,13 @@ input.search__input::placeholder {
       box-shadow: none;
       background: #EE2A74;
       color: #FFFFFF; }
+    .price__btn-mobile {
+      display: none; }
 
 .furniture {
-  margin-top: -1px; }
+  margin-top: -1px;
+  border-radius: 7px 7px 0px 0px;
+  min-height: 168px; }
 
 .color {
   margin-right: 2px; }
@@ -631,6 +635,8 @@ input.search__input::placeholder {
       color: #ffffff; }
   .best__price img {
     margin-left: 7px; }
+  .best__price-mobile {
+    display: none; }
 
 .present {
   width: 146px;
@@ -1154,7 +1160,7 @@ input.search__input::placeholder {
     .product__title-second {
       display: block; }
   .swiper-container {
-    margin-left: 15px; }
+    margin-left: 5px; }
   .swiper-slide {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1242,4 +1248,58 @@ input.search__input::placeholder {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-right: 15px; } }
+    margin-right: 15px; }
+  .card {
+    width: 134px;
+    height: 285px; }
+    .card__title {
+      font-size: 12px;
+      width: 112px;
+      line-height: 16px;
+      margin-top: 5px; }
+    .card:hover {
+      border: 1px solid #EE2A74; }
+  .furniture {
+    min-height: 120px; }
+  .best__price {
+    display: none; }
+    .best__price-title {
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 10px;
+      margin-top: 6px; }
+    .best__price-mobile {
+      display: block;
+      width: 40px;
+      height: 28px;
+      background: #27AE60;
+      border-radius: 8px 8px 8px 0px;
+      border: 2px solid #27AE60; }
+  .present {
+    display: none; }
+  .price-new {
+    font-size: 16px; }
+  .price__btn {
+    display: none; }
+    .price__btn-mobile {
+      display: block;
+      background: url(../img/cartMobile.svg) no-repeat center;
+      border: 2px solid #EE2A74;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 8px;
+      width: 40px;
+      height: 40px;
+      margin-top: 4px;
+      margin-right: 6px;
+      padding: 15px; }
+      .price__btn-mobile:hover {
+        background: url(../img/cartMobileActive.svg) no-repeat center;
+        background-color: #EE2A74; }
+  .price__money {
+    margin-top: 5px;
+    margin-left: 5px; }
+  .have {
+    margin-left: 7px;
+    margin-top: 11px; } }
