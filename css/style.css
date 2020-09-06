@@ -1218,9 +1218,7 @@ input.search__input::placeholder {
     margin-top: 5px;
     margin-left: 5px; }
   .have {
-    margin-left: 7px;
-    margin-top: 4px;
-    display: block; } }
+    margin-left: 7px; } }
 
 @media screen and (min-width: 320px) and (max-width: 411px) {
   .main {
