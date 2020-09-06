@@ -1164,7 +1164,9 @@ input.search__input::placeholder {
   .swiper-slide {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 2px;
+    margin-right: -12px; }
   .swiper-button-next, .swiper-button-prev, .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
     display: none; }
   .footer {
