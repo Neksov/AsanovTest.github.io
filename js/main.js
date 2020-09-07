@@ -1,4 +1,24 @@
 $(document).ready(function () {
+
+  // //крточки 
+  // var list = $(".menu__group .btn-group");
+  // var numToShow = 4; //сколько показывать элементов
+  // var button = $(".main__menu-btn");
+  // var numInList = list.length;
+  // list.hide();
+  // if (numInList > numToShow) {
+  //   button.show();
+  // }
+  // list.slice(0, numToShow).show();
+  // button.click(function () {
+  //   var showing = list.filter(":visible").length;
+  //   list.slice(showing - 1, showing + numToShow).fadeIn();
+  //   var nowShowing = list.filter(":visible").length;
+  //   if (nowShowing >= numInList) {
+  //     button.hide();
+  //   }
+  // });
+
   $(".nav-item__maps").click(function (event) {
     $(".nav-link__navShop").toggleClass("active");
   });
@@ -71,6 +91,8 @@ $(".desktop__btn").click(function (event) {
 $(".desktop__btn").click(function (event) {
   $(".desktop__arrow4").toggleClass("active");
 });
+
+
 
 //Рейтинг 
 // var rating = document.querySelector(".stars");
