@@ -1218,7 +1218,7 @@ input.search__input::placeholder {
     margin-left: -2px; }
   .card {
     width: 170px;
-    max-height: 265px; }
+    max-height: 270px; }
     .card__title {
       font-size: 12px;
       width: 112px;
@@ -1226,8 +1226,9 @@ input.search__input::placeholder {
       margin-top: 15px;
       min-height: 64px; }
     .card:hover {
-      border: 1px solid #EE2A74;
-      height: git85px; }
+      border: 1px solid #EE2A74; }
+    .card__data {
+      display: none; }
   .price {
     margin-top: 9px; }
   .furniture {
@@ -1492,6 +1493,8 @@ input.search__input::placeholder {
       min-height: 64px; }
     .card:hover {
       border: 1px solid #EE2A74; }
+    .card__data {
+      display: none; }
   .price {
     margin-top: 9px; }
   .furniture {
