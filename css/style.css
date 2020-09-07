@@ -274,7 +274,7 @@ a, :before, :after, button, input {
   margin: 10px;
   display: none; }
 
-.buttons__desktop {
+.buttons-desktop {
   display: none; }
 
 .info__product {
@@ -1218,7 +1218,7 @@ input.search__input::placeholder {
     margin-left: -2px; }
   .card {
     width: 170px;
-    max-height: 270px; }
+    max-height: 275px; }
     .card__title {
       font-size: 12px;
       width: 112px;
@@ -1484,7 +1484,7 @@ input.search__input::placeholder {
     margin-left: -2px; }
   .card {
     width: 150px;
-    max-height: 285px; }
+    max-height: 275px; }
     .card__title {
       font-size: 12px;
       width: 112px;
@@ -1539,7 +1539,8 @@ input.search__input::placeholder {
     margin-top: 5px;
     margin-left: 5px; }
   .have {
-    margin-left: 7px; }
+    margin-left: 7px;
+    margin-bottom: 10px; }
   .nav__btn {
     display: none; }
   .navbar {
