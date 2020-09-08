@@ -281,13 +281,59 @@
             </div>
             <!-- /.menu__group -->
             <div class="menu__group-desktop">
-
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/sofa.svg" alt="sofa" class="arrowPicture">
+                Диваны и кресла
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/closet.svg" alt="sofa" class="arrowPicture">
+                Шкафы
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/kitchen.svg" alt="sofa" class="arrowPicture">
+                Мебель для кухни
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/room.svg" alt="sofa" class="arrowPicture">
+                Гостинные
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/bedroom.svg" alt="sofa" class="arrowPicture">
+                Спальни
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/hall.svg" alt="sofa" class="arrowPicture">
+                Мебедь для прихожей
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/child.svg" alt="sofa" class="arrowPicture">
+                Детская мебедь
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/table.svg" alt="sofa" class="arrowPicture">
+                Столы и стулья
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/office.svg" alt="sofa" class="arrowPicture">
+                Офисная мебель
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/rotang.svg" alt="sofa" class="arrowPicture">
+                Мебель из ротанга
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/premium.svg" alt="sofa" class="arrowPicture">
+                Мебель премиум-класса
+              </button>
+              <button type="button" class="btn btn-menu btn-menu-desktop">
+                <img src="img/more.svg" alt="sofa" class="arrowPicture">
+                Условия покупки
+              </button>
             </div>
             <!-- /.menu__group-desktop-->
             <button class="btn main__menu-btn">
-              Загрузить
-              ещё
-              <img src="img/arrowMenu.svg" alt="arrow" class="arrow"></button>
+              Загрузить ещё
+              <img src="img/arrowNuv.svg" alt="arrow" class="arrow"></button>
           </div>
           <!-- /.main__menu -->
           <div class="info main__info">
@@ -319,9 +365,8 @@
                 </div>
               </nav>
               <!-- /.navbar -->
-
               <nav class="search navbar__search">
-                <form class="form-inline">
+                <form class="form-inline form-inline-search">
                   <div class="search__form">
                     <input class="search__input mr-sm-2" type="search" placeholder="Поиск: Диван для кухни"
                       aria-label="Search">
@@ -342,7 +387,6 @@
                 </div>
               </nav>
               <!-- /.navbar__search -->
-
               <div class="product info__product">
                 <div class="row">
                   <!-- Swiper -->
@@ -900,8 +944,8 @@
                     <div class="card2">
                       <div class="card2-header collapsed" id="headingOne">
                         <h5 class="mb-0">
-                          <button class="btn desktop__btn" data-toggle="collapse" data-target="#collapseOne"
-                            aria-controls="collapseOne">
+                          <button class="btn desktop__btn desktop__btn-arrow" data-toggle="collapse"
+                            data-target="#collapseOne" aria-controls="collapseOne">
                             Как мы работаем
                             <img src="img/arrowMenu.svg" alt="arrow" class="desktop__arrow">
                           </button>
@@ -924,8 +968,8 @@
                     <div class="card2">
                       <div class="card2-header collapsed" id="headingTwo">
                         <h5 class="mb-0">
-                          <button class="btn desktop__btn" data-toggle="collapse" data-target="#collapseTwo"
-                            aria-controls="collapseTwo">
+                          <button class="btn desktop__btn desktop__btn-arrow2" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-controls="collapseTwo">
                             Другая информация
                             <img src="img/arrowMenu.svg" alt="arrow" class="desktop__arrow2">
                           </button>
@@ -947,8 +991,8 @@
                     <div class="card2">
                       <div class="card2-header collapsed" id="headingThree">
                         <h5 class="mb-0">
-                          <button class="btn desktop__btn" data-toggle="collapse" data-target="#collapseThree"
-                            aria-controls="collapseThree">
+                          <button class="btn desktop__btn desktop__btn-arrow3" data-toggle="collapse"
+                            data-target="#collapseThree" aria-controls="collapseThree">
                             Сотрудничество
                             <img src="img/arrowMenu.svg" alt="arrow" class="desktop__arrow3">
                           </button>
@@ -969,8 +1013,8 @@
                     <div class="card2">
                       <div class="card2-header collapsed" id="headingFourth">
                         <h5 class="mb-0">
-                          <button class="btn desktop__btn" data-toggle="collapse" data-target="#collapseFourth"
-                            aria-controls="collapseFourth">
+                          <button class="btn desktop__btn desktop__btn-arrow4" data-toggle="collapse"
+                            data-target="#collapseFourth" aria-controls="collapseFourth">
                             Отзывы о нас
                             <img src="img/arrowMenu.svg" alt="arrow" class="desktop__arrow4">
                           </button>
@@ -1030,9 +1074,12 @@
       </div>
     </section>
   </main>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
   </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
   </script>

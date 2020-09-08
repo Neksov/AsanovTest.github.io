@@ -143,6 +143,8 @@
     height: auto
     &__menu
       width: 100%  
+      &-btn
+        display: block
     &__info
       width: 100%
       height: 0px
@@ -154,232 +156,12 @@
       margin: 10px
       display: none
       &-desktop
-        display: block
-        margin-top: 100px
-    &__logo
-      box-shadow: none
-      background: #F2F1F3
-      height: 56px
-      padding-top: 20px
-  .info
-    &__product
-      margin-top: 0
-  .btn-menu
-    background: #F2F1F3
-    border-radius: 8px
-    height: 48px
-  .btn-group>.btn:not(:last-child):not(.dropdown-toggle) 
-    border-top-right-radius: 8px
-    border-bottom-right-radius: 8px
-  .nav-item
-    &__maps
-      display: none
-  .phone
-    display: none
-  .buttons
-    display: none
-    &-desktop
-      display: flex
-      align-items: baseline
-      position: absolute
-      right: 10px
-      top: 15px
-  .button
-    &-desktop
-      background: #F2F1F3
-    &__cart 
-      padding-left: 15px
-    &__phone
-      padding-right: 15px
-  .cart__quantity 
-    right: -5px
-  .btn-group-last::after 
-    width: 90%
-  .arrowMenu
-    right: 5px
-  .dropdown-menu
-    width: 90%
-    &-text
-      font-size: 22px
-  .search
-    margin: 15px
-    &__input
-      width: 400px
-  .product
-    &__title
-      margin-top: 43px
-      margin-left: 10px
-      font-size: 20px
-      img
-        margin-right: 7px
-      &-first
-        display: none
-      &-second
-        display: block
-  .product::before 
-    bottom: 40px
-  .swiper-container
-    margin: 0px
-    padding: 3px
-  .swiper-slide
-    justify-content: center
-    margin-top: -3px
-  .swiper-button-next,.swiper-button-prev,.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled
-    display: none
-  .footer
-    display: flex
-    justify-content: center
-    flex-direction: column
-    align-items: flex-start
-    margin-top: -10px
-    &__group 
-      display: none
-      padding: 33px 16px
-      &-desktop
-        display: block
+        display: flex
+        justify-content: center
+        flex-direction: column
+        margin-top: 120px
         width: 100%
-        margin-top: 9px
-      &-list, &-social, &-title
-        margin-left: 0px
-      &-second
-        display: block
-    &__data-design 
-      margin-right: 5px
-      margin-top: 32px
-    &__policy
-      margin-left: 17px
-      flex-direction: column
-      margin-top: 10px
-    &__data
-      margin-left: 17px
-      flex-direction: column
-      span
-        width: 286px
-    &__row
-      width: 100%
-    &__map
-      display: flex
-      align-items: end
-      margin-top: 10px
-      flex-direction: row
-      width: 100%
-      justify-content: space-between
-      &-shop
-        margin-left: 17px
-  .social
-    order: 2
-    margin-top: -32px
-  .pay
-    order: 1
-    margin-top: 0
-  .desktop
-    &__phone
-      display: block
-      display: flex
-      align-items: center
-      margin-right: 22px
-    &__btn
-      font-size: 14px
-      margin-left: -2px
-  .card
-    width: 170px
-    max-height: 275px
-    &__title
-      font-size: 12px
-      width: 112px
-      line-height: 16px
-      margin-top: 15px
-      min-height: 64px
-    &:hover
-      border: 1px solid #EE2A74
-    &__data
-      display: none
-  .price
-    margin-top: 9px
-  .furniture
-    min-height: 98px
-  .best
-    &__price
-      display: none
-      &-title
-        color: #ffffff
-        font-weight: bold
-        font-size: 10px
-        line-height: 10px
-        margin-top: 6px
-      &-mobile
-        display: block
-        width: 40px
-        height: 28px
-        background: #27AE60
-        border-radius: 8px 8px 8px 0px
-        border: 2px solid #27AE60
-  .present
-    display: none
-  .price-new
-    font-size: 16px
-  .price
-    &__btn
-      display: none
-      &-mobile
-        display: block
-        background: url(../img/cartMobile.svg) no-repeat center
-        border: 2px solid #EE2A74
-        box-sizing: border-box
-        border-radius: 8px
-        width: 40px
-        height: 40px
-        margin-top: 4px
-        margin-right: 6px
-        padding: 14px
-        &:hover
-          background: url(../img/cartMobileActive.svg) no-repeat center
-          background-color: #EE2A74
-    &__money 
-      margin-top: 5px
-      margin-left: 5px
-  .have
-    margin-left: 7px
-  .nav
-    &__btn
-      display: none
-  .navbar 
-    position: absolute
-    left: -25px
-    top: 61px
-    background: none
-    &__search
-      position: absolute
-      top: 108px
-      margin: auto
-      justify-content: center
-      width: 100%
-  .form-inline
-    padding: 0
-  .dropdown-menu-second 
-    left: 20px !important
-    top: 37px !important
-@media  screen and (min-width : 320px) and (max-width : 411px)
-  .main
-    flex-direction: column
-    justify-content: center
-    align-items: center
-    height: auto
-    &__menu
-      width: 100%  
-    &__info
-      width: 100%
-      height: 0px
-  .menu
-    &__group
-      height: auto
-      box-shadow: none
-      padding-top: 100px
-      margin: 10px
-      display: none
-      &-desktop
-        display: block
-        margin-top: 100px
+        padding: 10px
     &__logo
       box-shadow: none
       background: #F2F1F3
@@ -392,6 +174,14 @@
     background: #F2F1F3
     border-radius: 8px
     height: 48px
+    &-desktop
+      width: 100%
+      height: 48px
+      margin-top: 8px
+      &:hover
+        background: #EE2A74
+        color: #ffffff
+        background-image: #ffffff url(../img/sofa.svg) no-repeat
   .btn-group>.btn:not(:last-child):not(.dropdown-toggle) 
     border-top-right-radius: 8px
     border-bottom-right-radius: 8px
@@ -427,8 +217,10 @@
       font-size: 22px
   .search
     margin: 15px
+    &__form
+      width: 100%
     &__input
-      width: 297px
+      width: 100%
   .product
     &__title
       margin-top: 43px
@@ -448,6 +240,7 @@
   .swiper-slide
     justify-content: center
     margin-top: -3px
+    margin-right: 0
   .swiper-button-next,.swiper-button-prev,.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled
     display: none
   .footer
@@ -507,7 +300,7 @@
       margin-left: -2px
   .card
     width: 150px
-    max-height: 275px
+    height: 280px
     &__title
       font-size: 12px
       width: 112px
@@ -516,6 +309,7 @@
       min-height: 64px
     &:hover
       border: 1px solid #EE2A74
+      height: 280px
     &__data
       display: none
   .price
@@ -579,8 +373,259 @@
       margin: auto
       justify-content: center
       width: 100%
+      padding: 10px
   .form-inline
     padding: 0
+    &-search
+      width: 100%
+  .dropdown-menu-second 
+    left: 20px !important
+    top: 37px !important
+
+
+@media  screen and (min-width : 320px) and (max-width : 411px)
+  .main
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: auto
+    &__menu
+      width: 100%  
+      &-btn
+        display: block
+    &__info
+      width: 100%
+      height: 0px
+  .menu
+    &__group
+      height: auto
+      box-shadow: none
+      padding-top: 100px
+      margin: 10px
+      display: none
+      &-desktop
+        display: flex
+        justify-content: center
+        flex-direction: column
+        margin-top: 120px
+        width: 100%
+        padding: 10px
+    &__logo
+      box-shadow: none
+      background: #F2F1F3
+      height: 56px
+      padding-top: 20px
+  .info
+    &__product
+      margin-top: 0
+  .btn-menu
+    background: #F2F1F3
+    border-radius: 8px
+    height: 48px
+    &-desktop
+      width: 100%
+      height: 48px
+      margin-top: 8px
+      &:hover
+        background: #EE2A74
+        color: #ffffff
+        background-image: #ffffff url(../img/sofa.svg) no-repeat
+  .btn-group>.btn:not(:last-child):not(.dropdown-toggle) 
+    border-top-right-radius: 8px
+    border-bottom-right-radius: 8px
+  .nav-item
+    &__maps
+      display: none
+  .phone
+    display: none
+  .buttons
+    display: none
+    &-desktop
+      display: flex
+      align-items: baseline
+      position: absolute
+      right: 10px
+      top: 15px
+  .button
+    &-desktop
+      background: #F2F1F3
+    &__cart 
+      padding-left: 15px
+    &__phone
+      padding-right: 15px
+  .cart__quantity 
+    right: -5px
+  .btn-group-last::after 
+    width: 90%
+  .arrowMenu
+    right: 5px
+  .dropdown-menu
+    width: 90%
+    &-text
+      font-size: 22px
+  .search
+    margin: 15px
+    &__form
+      width: 100%
+    &__input
+      width: 100%
+  .product
+    &__title
+      margin-top: 43px
+      margin-left: 10px
+      font-size: 20px
+      img
+        margin-right: 7px
+      &-first
+        display: none
+      &-second
+        display: block
+  .product::before 
+    bottom: 40px
+  .swiper-container
+    margin: 0px
+    padding: 3px
+  .swiper-slide
+    justify-content: center
+    margin-top: -3px
+    margin-right: 0
+  .swiper-button-next,.swiper-button-prev,.swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled
+    display: none
+  .footer
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: flex-start
+    margin-top: -10px
+    &__group 
+      display: none
+      padding: 33px 16px
+      &-desktop
+        display: block
+        width: 100%
+        margin-top: 9px
+      &-list, &-social, &-title
+        margin-left: 0px
+      &-second
+        display: block
+    &__data-design 
+      margin-right: 5px
+      margin-top: 32px
+    &__policy
+      margin-left: 17px
+      flex-direction: column
+      margin-top: 10px
+    &__data
+      margin-left: 17px
+      flex-direction: column
+      span
+        width: 286px
+    &__row
+      width: 100%
+    &__map
+      display: flex
+      align-items: end
+      margin-top: 10px
+      flex-direction: row
+      width: 100%
+      justify-content: space-between
+      &-shop
+        margin-left: 17px
+  .social
+    order: 2
+    margin-top: -32px
+  .pay
+    order: 1
+    margin-top: 0
+  .desktop
+    &__phone
+      display: block
+      display: flex
+      align-items: center
+      margin-right: 22px
+    &__btn
+      font-size: 14px
+      margin-left: -2px
+  .card
+    width: 150px
+    height: 280px
+    &__title
+      font-size: 12px
+      width: 112px
+      line-height: 16px
+      margin-top: 15px
+      min-height: 64px
+    &:hover
+      border: 1px solid #EE2A74
+      height: 280px
+    &__data
+      display: none
+  .price
+    margin-top: 9px
+  .furniture
+    min-height: 114px
+  .best
+    &__price
+      display: none
+      &-title
+        color: #ffffff
+        font-weight: bold
+        font-size: 10px
+        line-height: 10px
+        margin-top: 6px
+      &-mobile
+        display: block
+        width: 40px
+        height: 28px
+        background: #27AE60
+        border-radius: 8px 8px 8px 0px
+        border: 2px solid #27AE60
+  .present
+    display: none
+  .price-new
+    font-size: 16px
+  .price
+    &__btn
+      display: none
+      &-mobile
+        display: block
+        background: url(../img/cartMobile.svg) no-repeat center
+        border: 2px solid #EE2A74
+        box-sizing: border-box
+        border-radius: 8px
+        width: 40px
+        height: 40px
+        margin-top: 4px
+        margin-right: 6px
+        padding: 14px
+        &:hover
+          background: url(../img/cartMobileActive.svg) no-repeat center
+          background-color: #EE2A74
+    &__money 
+      margin-top: 5px
+      margin-left: 5px
+  .have
+    margin-left: 7px
+    margin-bottom: 10px
+  .nav
+    &__btn
+      display: none
+  .navbar 
+    position: absolute
+    left: -25px
+    top: 61px
+    background: none
+    &__search
+      position: absolute
+      top: 108px
+      margin: auto
+      justify-content: center
+      width: 100%
+      padding: 10px
+  .form-inline
+    padding: 0
+    &-search
+      width: 100%
   .dropdown-menu-second 
     left: 20px !important
     top: 37px !important
