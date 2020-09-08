@@ -82,19 +82,36 @@ $(".desktop__btn-arrow4").click(function (event) {
 
 //крточки 
 var list = $(".menu__group-desktop .btn-menu-desktop");
-var numToShow = 4; //сколько показывать элементов
+var numToShow = 6; //сколько показывать элементов
 var button = $(".main__menu-btn");
 var numInList = list.length;
 list.hide();
-if (numInList > numToShow) {
-  button.show();
-}
+// if (numInList > numToShow) {
+//   button.show();
+// }
 list.slice(0, numToShow).show();
 button.click(function () {
   var showing = list.filter(":visible").length;
   list.slice(showing - 1, showing + numToShow).fadeIn();
   var nowShowing = list.filter(":visible").length;
   button.hide();
+});
+
+//бургер меню
+const menuToggle = document.querySelector('#menu-togle');
+const mobileNavContainer = document.querySelector('#menu__group-mobile');
+
+menuToggle.onclick = function () {
+  menuToggle.classList.toggle('menu-icon-active');
+  mobileNavContainer.classList.toggle('menu__group-mobile--active');
+}
+$(".nav__item").click(function (event) {
+  $(".menu-icon").removeClass(
+    ".menu-icon-active"
+  );
+  $(".menu__group-mobile").removeClass(
+    ".menu__group-mobile--active"
+  );
 });
 //Рейтинг 
 // var rating = document.querySelector(".stars");
