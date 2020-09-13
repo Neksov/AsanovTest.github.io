@@ -78,6 +78,40 @@ $(".desktop__btn-arrow3").click(function (event) {
 $(".desktop__btn-arrow4").click(function (event) {
   $(".desktop__arrow4").toggleClass("active");
 });
+$(".mobile__btn-arrow1").click(function (event) {
+  $(".arrowMenu__mobile").toggleClass("active");
+});
+$(".mobile__btn-arrow2").click(function (event) {
+  $(".arrowMenu__mobile2").toggleClass("active");
+});
+$(".mobile__btn-arrow3").click(function (event) {
+  $(".arrowMenu__mobile3").toggleClass("active");
+});
+$(".mobile__btn-arrow4").click(function (event) {
+  $(".arrowMenu__mobile4").toggleClass("active");
+});
+$(".mobile__btn-arrow5").click(function (event) {
+  $(".arrowMenu__mobile5").toggleClass("active");
+});
+$(".mobile__btn-arrow6").click(function (event) {
+  $(".arrowMenu__mobile6").toggleClass("active");
+});
+$(".mobile__btn-arrow7").click(function (event) {
+  $(".arrowMenu__mobile7").toggleClass("active");
+});
+$(".mobile__btn-arrow8").click(function (event) {
+  $(".arrowMenu__mobile8").toggleClass("active");
+});
+$(".mobile__btn-arrow9").click(function (event) {
+  $(".arrowMenu__mobile9").toggleClass("active");
+});
+$(".mobile__btn-arrow10").click(function (event) {
+  $(".arrowMenu__mobile10").toggleClass("active");
+});
+$(".nav-link").click(function (event) {
+  $(".menu-icon").removeClass("menu-icon-active");
+  $(".menu__group-mobile").removeClass("menu__group-mobile--active");
+});
 
 
 //крточки 
